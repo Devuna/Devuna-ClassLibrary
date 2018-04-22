@@ -4,7 +4,7 @@
 
 A public repository for some Clarion classes that you may find useful.
 
-#ctWinPredefinedColors 
+# ctWinPredefinedColors  #
 
 A class that encapsulates the Windows predefined colors.  Can be used to create a color picker of WIndows predefined colors.
 
