@@ -18,16 +18,16 @@ The **Images** subfolder contains small bitmaps of the predefined colors.  These
 
 *GetColorName         PROCEDURE(LONG pColorValue),STRING*
 
-- **pColorValue** aClarion color value
+- **pColorValue** a Clarion color value
 - **Returns** the name of the passed color value
 
 
-**GetColorValue        PROCEDURE(*CSTRING pColorName),LONG**
+*GetColorValue        PROCEDURE(***CSTRING pColorName),LONG*
 
 - **pColorName** a Windows Predefined Color Name
 - **Returns** the Clarion color value for the passed color name.
 
-**GetColorQueue        PROCEDURE(*ctWinPredefinedColorsQueueType pWinColorQueue, BYTE pFreeQueue = 0),LONG,PROC**
+*GetColorQueue        PROCEDURE(***ctWinPredefinedColorsQueueType pWinColorQueue, BYTE pFreeQueue = 0),LONG,PROC*
 
 - **pWinColorQueue** a queue of ctWinPredefinedColorsQueueType TYPE
 - **pFreeQueue** frees the passed queue before adding entries if TRUE
